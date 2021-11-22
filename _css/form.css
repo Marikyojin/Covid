@@ -1,0 +1,38 @@
+@charset "utf-8";
+form{
+    width: 75%;
+    margin: auto;
+}
+input, textarea, select{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+}
+input:hover,textarea:hover, fieldset#genero:hover, fieldset#ajuda:hover,select:hover{
+    background-color: #DDDDDD;
+}
+legend{
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+fieldset{
+    border-color: #CECECE;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+fieldset#sexo{
+    width: 250px;
+}
+input#botao{
+    margin: 20px;
+}
+textarea{
+    vertical-align: top;
+    width: 100%;
+}
+
+
